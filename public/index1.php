@@ -5,17 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./css/main.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script> -->
+
 </head>
-<
+
 <body>
     <!--header-->
     <div class="header-main-bg">
         <!--logo and list-->
         <img src="" alt="">
-        <h1>ShopNow</h1>
-        <div class="logo-list">
+        <h1 class="header-site-name">ShopNow</h1>
+        <div class="header-menu-list">
+        <input type="text">
         <a href="#">Discover</a>
         <a href="#">Product</a>
         <a href="#">About Us</a>
         <a href="#">Contact Us</a>
-        </div>
+        </div>
+        <button class="header-button">
+            Shop Now
+        </button>
+
+
+    </div>
+    <!--end header--> 
+    <!--slider-->
+
+    <!--end slider-->
+</body>
+<script src="./js/main.js"></script>
+</html>
